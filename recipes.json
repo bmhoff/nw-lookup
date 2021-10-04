@@ -1,0 +1,12 @@
+{
+  "recipes":[
+     {"name": "steel-pickaxe",
+     "ingredients": "200 steel ingots"},
+
+     {"name": "steel pickaxe",
+     "ingredients": "200 steel ingots"},
+
+     {"name": "iron-pickaxe",
+     "ingredients": [{"item":"iron ingot", "quantity":10}, {"item":"flux", "quantity":1}],
+     "skill": {"class":"engineering", "level":50}}
+]}
