@@ -1,10 +1,9 @@
 {
   "recipes":[
-     {"name": "steel-pickaxe",
-     "ingredients": "200 steel ingots"},
-
      {"name": "steel pickaxe",
-     "ingredients": "200 steel ingots"},
+     "ingredients": [{"item":"steel ingot", "quantity":13}, {"item":"coarse leather", "quantity":2}, {"item":"timber", "quantity":3}],
+     "skill": {"class":"engineering", "level":50},
+     "station": {"type":"workshop", "tier":3}}
 
      {"name": "iron-pickaxe",
      "ingredients": [{"item":"iron ingot", "quantity":10}, {"item":"flux", "quantity":1}],
